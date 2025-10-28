@@ -82,7 +82,11 @@ class Stack {
 
     // clear(delete) all elements in the stack
     void clear() {
-        top = nullptr;
+        while (top != nullptr) {
+            Node* temp = top; 
+            top = top->next;  // delete the node one by one by storing in temp variable
+            delete temp;
+        }
     }
 
     void display() {
@@ -94,4 +98,5 @@ class Stack {
         }
         cout << endl;
     }
+
 };
