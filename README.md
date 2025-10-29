@@ -1,6 +1,27 @@
 # Data-structures
 Data Structures and algorithms and its implementations with visualisation
 
+## Linked List
+
+* Linked list allows for continous memory allocation using node.
+* A node consist of data part and pointer part which point to the next variable.
+* It overcomes the array fixed size limitation.
+* It used for construction other data structures like stack and queues.
+
+  ```
+  struct Node {
+      int data;
+      Node* next;
+      Node(int data) {
+          this->data = data;
+          this->next = nullptr;
+      }
+  };
+
+  
+![list](https://github.com/user-attachments/assets/2d7a6696-fd8c-4353-8a3e-12c94d65f021)
+
+
 ## Stack
 
 ### Stack is a data structure that follows Last In First Out(LIFO) principle.
