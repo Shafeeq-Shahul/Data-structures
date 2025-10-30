@@ -45,3 +45,37 @@ Data Structures and algorithms and its implementations with visualisation
   #### Visual Representation
 
   ![queue](https://github.com/user-attachments/assets/e623f49c-f949-4cf7-bbb9-a9abe08c757c)
+
+## Sorting Algorithms
+
+### Bubble Sort
+
+- Start from the first element of the array.
+- Compare the current element with the next one.
+- Swap them if the current element is greater than the next.
+- Move to the next pair and repeat steps 2–3 until the end of the array.
+- Repeat the entire process for all elements, reducing the range each time (since the largest elements settle at the end).
+- Stop when no swaps are needed in a full pass — the array is sorted.
+
+![bubble](https://github.com/user-attachments/assets/4def8fa8-7bb6-4bbd-bac8-ee81a48f3598)
+
+
+### Selection Sort
+
+- Start with the first element of the array.
+- Search for the smallest element in the entire unsorted portion.
+- Swap the smallest element with the first unsorted element.
+- Move to the next position and repeat steps 2–3.
+- Continue until the entire array is sorted.
+
+![selection](https://github.com/user-attachments/assets/68503fa5-bfc0-4d4b-8b78-ead73834619f)
+
+### Insertion Sort
+
+- Start from the second element (index 1) of the array.
+- Compare it with the elements before it (to its left).
+- Shift larger elements one position to the right to make space.
+- Insert the current element into its correct position.
+- Repeat for all elements until the array is sorted.
+
+![insertion](https://github.com/user-attachments/assets/fb1fc7ed-7fff-4e4b-9cff-42686ccdb4aa)
